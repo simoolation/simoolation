@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    @@include("./partials/head.html", {
+    "title": "Simoolation - Imagining Future Year 2222",
+    "desc": "Simoolation - Imagining Future Year 2222",
+    "type": "website",
+    "url": "https://www.simoolation.com",
+    "image":"https://www.simoolation.com/assets/img/illustrations/zero.png",
+    "keywords": "future,metaverse,simoolation,podcast",
+    "desc": "let's talk about year 2222"
+    })
+
+    <!-- inline style to handle loading of various element-->
+    <style>
+        body.loading {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body class="loading" style="color: rgba(255, 255, 255, 1) !important;">
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("../src/partials/navbar.html", {
+    "classList": "navbar-dark bg-white fixed-top",
+    "type": "boxed"
+    })
+
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+    </div >
+
+        <section class="pt-10 pb-10 pt-md-11 pb-md-11 bg-gradient-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-5 col-lg-6 order-md-2">
+
+                    <!-- Image -->
+                    <img src="assets/img/illustrations/illustration-8.png" alt="..." class="img-fluid mb-6 mb-md-0">
+
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 order-md-1">
+
+                    <!-- Heading -->
+                    <div class="mt-2 mb-4">
+                        <h2 class="displ ay-5 text-center text-md-left" style="line-height:1.3em;">
+
+                            Imagine Year 2222 <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;
+                            Now Lets Talk!
+                        </h2>
+                    </div>
+
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </section>
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("partials/footer.html", {
+    "classList": "bg-dark"
+    })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+
+
+</body>
+</html>
