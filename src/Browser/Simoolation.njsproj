@@ -143,19 +143,11 @@
     <Content Include="src\assets\js\toilet-paper.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="src\docs\capture-png.html" />
-    <Content Include="src\docs\capture-pdf.html" />
-    <Content Include="src\docs\get-token.html" />
-    <Content Include="src\docs\csharp-png.html" />
-    <Content Include="src\docs\test-codeceptjs.html" />
-    <Content Include="src\docs\capture-png-playwright.html" />
-    <Content Include="src\docs\test-jest.html" />
     <Content Include="src\partials\fullstory.html" />
     <Content Include="src\sitemap-docs.xml" />
     <Content Include="src\sitemap.xml" />
     <Content Include="src\error.html" />
     <Content Include="src\index.html" />
-    <Content Include="src\docs\index.html" />
     <Content Include="src\partials\footer.html" />
     <Content Include="src\partials\head.html" />
     <Content Include="src\partials\navbar.html" />
@@ -841,7 +833,6 @@
     <Folder Include="src\assets\scss\theme" />
     <Folder Include="src\assets\scss\theme\mixins" />
     <Folder Include="src\assets\scss\theme\utilities" />
-    <Folder Include="src\docs" />
     <Folder Include="src\partials" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
