@@ -1,6 +1,6 @@
 FROM node:10 AS build
-COPY . ./src/Browser
-WORKDIR /src/Browser
+COPY . .
+WORKDIR /
 RUN npm install gulp
 RUN npm install --g gulp-cli
 RUN npm install

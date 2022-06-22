@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+
+User-agent: *
+Sitemap: https://www.0browser.com/sitemap.xml
+
+User-agent: *
+Sitemap: https://blogs.0browser.com/sitemap-blogs.xml
+
+User-agent: *
+Sitemap: https://www.0browser.com/sitemap-docs.xml
+
+User-agent: *
+Disallow: https://admin.0browser.com/*
+Disallow: https://login.0browser.com/Account/*
+Disallow: /Product/Create
+Disallow: /Product/Edit
+Disallow: /Product/Edit*
+Disallow: /Store/Create
+Disallow: /Store/Edit
+Disallow: /Store/Edit*
+Disallow: /Timeline*
+Disallow: /Timeline/*
+Disallow: /Market*
+Disallow: /Market/*
+Disallow: /Market/Create
+Disallow: /Market/Edit
+Disallow: /Market/Edit*
+Disallow: /Error
+Disallow: /Meetup
+Disallow: /Meetup/*
+Disallow: /PostedItems/*
+Disallow: /70
+Disallow: /Category
+Disallow: /Category*
+Disallow: https://www.0browser.com/Account/Login?callbackUrl*
+Disallow: http://www.0browser.com/Account/Login?callbackUrl*
+
