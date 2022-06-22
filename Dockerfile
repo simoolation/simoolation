@@ -9,9 +9,9 @@ RUN gulp -b . --gulpfile gulpfile.js build
 
 FROM nginx:alpine
 EXPOSE 80
-COPY --from=build src/Browser/default.conf /etc/nginx/conf.d
-COPY --from=build src/Browser/mime.types /etc/nginx/mime.types
-COPY --from=build src/Browser/dist /usr/share/nginx/html
-COPY --from=build src/Browser/favicon.ico /usr/share/nginx/html
-COPY --from=build src/Browser/src/assets/js/toilet-paper.js /usr/share/nginx/html/assets/js
+COPY --from=build default.conf /etc/nginx/conf.d
+COPY --from=build mime.types /etc/nginx/mime.types
+COPY --from=build dist /usr/share/nginx/html
+COPY --from=build favicon.ico /usr/share/nginx/html
+COPY --from=build src/assets/js/toilet-paper.js /usr/share/nginx/html/assets/js
 RUN ls -la /usr/share/nginx/html
